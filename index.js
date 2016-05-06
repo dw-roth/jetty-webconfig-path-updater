@@ -7,8 +7,6 @@ function usage() {
     console.log('example: xmlConfigUpdate vima_preprod.xml vima_preprod_05_04_16.00.d');
 }
 
-console.log('arg count: ' + process.argv.length);
-
 if (process.argv.length !== 4) {
     usage();
     process.exit(1);
