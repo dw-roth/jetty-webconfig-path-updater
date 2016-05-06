@@ -3,8 +3,8 @@ var xmldom = require('xmldom').DOMParser,
     fs = require('fs');
 
 function usage() {
-    console.log('usage: xmlConfigUpdate configFile path');
-    console.log('example: xmlConfigUpdate vima_preprod.xml vima_preprod_05_04_16.00.d');
+    console.log('usage: node index.js configFile newPath');
+    console.log('example: node index.js config.xml release_05_04_16.00.d');
 }
 
 if (process.argv.length !== 4) {
