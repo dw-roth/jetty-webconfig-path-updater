@@ -1,0 +1,15 @@
+{
+  "name": "xmlconfigupdate",
+  "version": "0.0.1",
+  "description": "build helper that updates a web config xml file to point to a new deployment folder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Roth",
+  "license": "ISC",
+  "dependencies": {
+    "xml2js": "^0.4.16",
+    "xmldom": "^0.1.22"
+  }
+}
