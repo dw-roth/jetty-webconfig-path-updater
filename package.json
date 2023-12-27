@@ -9,6 +9,6 @@
   "author": "Daniel Roth",
   "license": "ISC",
   "dependencies": {
-    "xmldom": "^0.1.22"
+    "@xmldom/xmldom": "^0.8.10"
   }
 }
